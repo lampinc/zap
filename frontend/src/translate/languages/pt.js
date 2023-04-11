@@ -521,7 +521,7 @@ const messages = {
           assignedTo: "Atribuído à:",
           buttons: {
             return: "Retornar",
-            resolve: "Resolver",
+            resolve: "Encerrar",
             reopen: "Reabrir",
             accept: "Aceitar",
           },
