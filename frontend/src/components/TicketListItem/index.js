@@ -193,7 +193,7 @@ const TicketListItem = ({ ticket }) => {
               {ticket.status === "closed" && (
                 <Badge
                   className={classes.closedBadge}
-                  badgeContent={"closed"}
+                  badgeContent={"finalizado"}
                   color="primary"
                 />
               )}
