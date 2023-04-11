@@ -73,7 +73,7 @@ const Login = () => {
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
-        <img alt="logo" src={logo}></img>
+        <img src={logo} width={"80%"} style={{ marginLeft: 'auto' ,marginRight:'auto', display:'flex'}}></img>
         <form className={classes.form} noValidate onSubmit={handlSubmit}>
           <TextField
             variant="outlined"
